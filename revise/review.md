@@ -1,0 +1,64 @@
+# Problems
+## 水色
+- [ABC129 E](https://atcoder.jp/contests/abc129/tasks/abc129_e)
+  - 方針は正しかった
+  - 遷移にたどり着けなかった
+  - a+bとa xor bの関係性に着目
+- [ABC134 E](https://atcoder.jp/contests/abc134/tasks/abc134_e)
+  - 未習得 (2Dセグメントツリー)
+  - 上手な手法ならば、上記手法を使わずとも回答可能
+    - 増加列・減少列をまとめて捉える (広義単調減少列)
+    - 対応するindexにvalueを置き換えていく手法
+  - i番目の要素以下の値で、最も大きい値をi番目の要素の値に置き換える
+    - 2分探索
+- [ABC137 D](https://atcoder.jp/contests/abc137/tasks/abc137_d)
+  - 貪欲 or DP ?
+  - 方針が決定した後は、自分で実装しACした
+- [ABC139 E](https://atcoder.jp/contests/abc139/tasks/abc139_e)
+  - 手法に気付けなかった
+  - 貪欲的に解こうとしたが、TLEになる
+  - トポロジカルソートの解法
+- [ABC141 E](https://atcoder.jp/contests/abc141/tasks/abc141_e)
+  - 未収得手法
+- [ABC142 E](https://atcoder.jp/contests/abc142/tasks/abc142_e)
+  - 手法はたどり着いた (bitDP)
+  - 実装力 (dpの設計)
+- [ABC145 E](https://atcoder.jp/contests/abc145/tasks/abc145_e)
+  - 特殊なDP (貪欲が関わる最適化が可能)
+- [ABC148 F](https://atcoder.jp/contests/abc148/tasks/abc148_f)
+  - ゲーム問題
+  - 互いの立場から考える
+  - 最終的な地点はどのような条件を満たすか?
+- [ABC150 D](https://atcoder.jp/contests/abc150/tasks/abc150_d)
+  - 発想は正しかった
+  - 条件がそもそも満たされない場合は?
+    - 各系列の偶奇に着目する
+- [ABC152 E](https://atcoder.jp/contests/abc152/tasks/abc152_e)
+  - 方針は完全に正解
+  - 計算量の落とし方!!
+## 緑
+- [ABC136 D](https://atcoder.jp/contests/abc140/tasks/abc140_d)
+  - 変化量に注目
+  - 幸福な人の人数考える <-> 幸福でない人の人数を考える、の発想の切り替え
+- [ABC153 D](https://atcoder.jp/contests/abc153/tasks/abc153_e)
+  - 方針
+    - 手法にはたどり着いた(2回目)
+    - 実装には少々の工夫が必要
+- [ABC180 D](https://atcoder.jp/contests/abc180/tasks/abc180_d)
+  - 試行を試すこと
+  - ナップザック or 貪欲 or その他?
+- [ABC181 E](https://atcoder.jp/contests/abc181/tasks/abc181_e)
+  - 計算量の落とし方
+- [ABC191 C](https://atcoder.jp/contests/abc191/tasks/abc191_c)
+  - 発想の転換
+- [ABC194 D](https://atcoder.jp/contests/abc194/tasks/abc194_d)
+  - 「有効なのが来るまでカードを引く期待値は、有効なカードを引く確率の逆数になる。」
+- [ABC195 D](https://atcoder.jp/contests/abc195/tasks/abc195_d)
+  - 方針, 計算量の推定
+- [ABC204 D](https://atcoder.jp/contests/abc204/tasks/abc204_d)
+  - 貪欲 or DP?
+  
+
+# Technique
+- tree DP
+- 2Dセグメントツリー
